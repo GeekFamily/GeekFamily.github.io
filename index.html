@@ -8,7 +8,28 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-
+<script>
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+</script>
 		<style>
 @media screen and (max-width: 1680px) {
 						/*div - контейнер для новости*/
@@ -103,8 +124,8 @@
 		/*div - ссылка даты новости и заголовка rss-канала*/
 		.rssdate a{color:#c0c0c0;}
 		}
+if(isMobile.any()){
 
-		@media screen and (max-width: 480px) {
 						/*div - контейнер для новости*/
 		.rss{background-color:#fff; margin:10px; padding: 15px; padding-bottom: 15px;}
 		
