@@ -7,173 +7,132 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<!-- Owl carousel -->
+		<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+		
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 
 		<style>
-@media screen and (max-width: 1680px) {
 
-			
-						/*div - контейнер для новости*/
+		@media screen and (max-width: 1680px) {
+		/*div - контейнер для новости*/
 		.rss{background-color:#fff; margin:10px; padding: 15px; padding-bottom: 15px;}
-		
 		/*div - контейнер для всей ленты*/
 		.rss_container{background-color:#e6e6e6; padding-left:200px; padding-right:200px; padding-top:45px;}
-		
 		/*div - контейнер для медиа-файлов*/
 		.media{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
-		
 		/*div - ссылка на медиа-файл*/
 		.media a{color:#000000;font-size:0.7em}
-		
 		/*div - изображение медиа-файл*/
 		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
-		
 		/*div - контейнер даты новости и заголовка rss-канала*/
 		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; }
-		
 		/*div - ссылка даты новости и заголовка rss-канала*/
 		.rssdate a{color:#c0c0c0;}
-			
-
 		}
 
 		@media screen and (max-width: 1280px) {
-
-			
-						/*div - контейнер для новости*/
+		/*div - контейнер для новости*/
 		.rss{background-color:#fff; margin:10px; padding: 15px; padding-bottom: 15px;}
-		
 		/*div - контейнер для всей ленты*/
 		.rss_container{background-color:#e6e6e6; padding-left:100px; padding-right:100px; padding-top:45px;}
-		
 		/*div - контейнер для медиа-файлов*/
 		.media{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
-		
 		/*div - ссылка на медиа-файл*/
 		.media a{color:#000000;font-size:0.7em}
-		
 		/*div - изображение медиа-файл*/
 		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
-		
 		/*div - контейнер даты новости и заголовка rss-канала*/
 		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; }
-		
 		/*div - ссылка даты новости и заголовка rss-канала*/
 		.rssdate a{color:#c0c0c0;}
-			
 		}
 		
-				@media screen and (max-width: 1080px) {
-
-			
-						/*div - контейнер для новости*/
+		@media screen and (max-width: 1080px) {
+		/*div - контейнер для новости*/
 		.rss{background-color:#fff; margin:10px; padding: 15px; padding-bottom: 15px;}
-		
 		/*div - контейнер для всей ленты*/
 		.rss_container{background-color:#e6e6e6; padding-left:2=50px; padding-right:50px; padding-top:30px;}
-		
 		/*div - контейнер для медиа-файлов*/
 		.media{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
-		
 		/*div - ссылка на медиа-файл*/
 		.media a{color:#000000;font-size:0.7em}
-		
 		/*div - изображение медиа-файл*/
 		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
-		
 		/*div - контейнер даты новости и заголовка rss-канала*/
 		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; }
-		
 		/*div - ссылка даты новости и заголовка rss-канала*/
 		.rssdate a{color:#c0c0c0;}
-			
-
 		}
 
 		@media screen and (max-width: 720px) {
-
-			
-						/*div - контейнер для новости*/
+		/*div - контейнер для новости*/
 		.rss{background-color:#fff; margin:10px; padding: 15px; padding-bottom: 15px;}
-		
 		/*div - контейнер для всей ленты*/
 		.rss_container{background-color:#e6e6e6; padding-left:2=50px; padding-right:50px; padding-top:30px;}
-		
 		/*div - контейнер для медиа-файлов*/
 		.media{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
-		
 		/*div - ссылка на медиа-файл*/
 		.media a{color:#000000;font-size:0.7em}
-		
 		/*div - изображение медиа-файл*/
 		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
-		
 		/*div - контейнер даты новости и заголовка rss-канала*/
 		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; }
-		
 		/*div - ссылка даты новости и заголовка rss-канала*/
 		.rssdate a{color:#c0c0c0;}
-			
-
 		}
 
 		@media screen and (max-width: 736px) {
-
-			
-						/*div - контейнер для новости*/
+		/*div - контейнер для новости*/
 		.rss{background-color:#fff; margin:10px; padding: 15px; padding-bottom: 15px;}
-		
 		/*div - контейнер для всей ленты*/
 		.rss_container{background-color:#e6e6e6; padding-left:50px; padding-right:50px; padding-top:45px;}
-		
 		/*div - контейнер для медиа-файлов*/
 		.media{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
-		
 		/*div - ссылка на медиа-файл*/
 		.media a{color:#000000;font-size:0.7em}
-		
 		/*div - изображение медиа-файл*/
 		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
-		
 		/*div - контейнер даты новости и заголовка rss-канала*/
 		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; }
-		
 		/*div - ссылка даты новости и заголовка rss-канала*/
 		.rssdate a{color:#c0c0c0;}
-			
 		}
 
 		@media screen and (max-width: 480px) {
-
-			
-						/*div - контейнер для новости*/
+		/*div - контейнер для новости*/
 		.rss{background-color:#fff; margin:10px; padding: 15px; padding-bottom: 15px;}
-		
 		/*div - контейнер для всей ленты*/
 		.rss_container{background-color:#e6e6e6; padding-left:25px; padding-right:25px; padding-top:45px;}
-		
 		/*div - контейнер для медиа-файлов*/
 		.media{background-color:#f0f0f0; background-image:url(https://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
-		
 		/*div - ссылка на медиа-файл*/
 		.media a{color:#000000;font-size:0.7em}
-		
 		/*div - изображение медиа-файл*/
 		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
-		
 		/*div - контейнер даты новости и заголовка rss-канала*/
 		.rssdate{font-size:0.7em; color:#c0c0c0; margin:7px; }
-		
 		/*div - ссылка даты новости и заголовка rss-канала*/
 		.rssdate a{color:#c0c0c0;}
-			
 		}
 		
 		</style>
 	</head>
 	
 	<body class="landing">
+	
+	<!--PRELOADER-->
+    <div id="preloader">
+      <div id="status">
+        <img alt="logo" src="images/logo-big.png">
+      </div>
+    </div>
+    <!--/.PRELOADER END-->
+	
 		<!-- Header -->
 			<header id="header" class="alt">
 				<h1><a href="index.html">Главная</a></h1>
@@ -195,7 +154,6 @@
 				
 					<div id="logo" class="logo">
 					<center><h2>GeekFamily</h2></center>
-				<!-- <img style="width:250px;height:60px;" src="images/GEEKFAMILY_text.svg"> -->
 					</div>
 				
 				<p>Добро пожаловать!</p>
@@ -203,9 +161,16 @@
 					<li><a href="https://vk.me/join/AJQ1d1iA6wja/Yulbbzs1Ief" class="button big special">В беседу</a></li>
 				</ul>
 			</section>
-<div id="rss">
-<!-- Скопируйте следующий код в место, отведенное для показа ленты -->
-<script type="text/javascript">var charset='UTF-8';var t=document.getElementsByTagName('meta');for(var i=0; i<t.length; i++){var rg=/charset=["']?([^"']*)/g;if(t[i].content.indexOf('charset')!=-1){charset=rg.exec(t[i].content)[1];break;}}document.write('<script type="text/javascript" src="https://www.rss-script.ru/rss-script.php?charset='+charset+'&rss[]=https%3A%2F%2Fnews.yandex.ru%2Findex.rss&rss[]=https%3A%2F%2Fnews.yandex.ru%2Fscience.rss&rss[]=https%3A%2F%2Fnews.yandex.ru%2Fcomputers.rss&rss[]=https%3A%2F%2Fnews.yandex.ru%2Fgames.rss&rss[]=https%3A%2F%2Fnews.yandex.ru%2Fmusic.rss&media=1&notitle=1&nodata=1&count=10"><\/script>');</script><noscript>Для просмотра этой RSS ленты требуется поддержка Java Script</noscript>
+<div id="owl-example" class="owl-carousel">
+	<div>
+ 		<h2>One</h2>
+ 	</div>
+ 	<div>
+ 		<h2>Two</h2>
+ 	</div>
+ 	<div>
+ 		<h2>Three</h2>
+ 	</div>
 </div>
 		<!-- Footer -->
 			<footer id="footer">
@@ -228,6 +193,9 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<!-- Owl carousel -->
+			<script src="assets/js/jquery-1.9.1.min.js"></script>
+			<script src="owl-carousel/owl.carousel-min.js"></script>
+			<script src="assets/js/start.js"></script>
 	</body>
 </html>
