@@ -3872,6 +3872,36 @@
 
 		}
 
+	#logo h2{
+		Border: 5px solid white;
+		Font-family: "Comic Sans ms";
+	}
+		
+		@media screen and (max-width: 1680px) {
+		#logo h2{	
+			width: 275px;
+			}
+		}
+
+		@media screen and (max-width: 1280px) {
+		#logo h2{
+			width: 250px;
+			}
+		}
+		
+		@media screen and (max-width: 980px) {
+		#logo h2{
+			width: 225px;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+		#logo h2{
+			width: 150px;
+			}
+		}
+
+
 /* Banner */
 
 	#banner {
@@ -4024,6 +4054,13 @@
 			padding: 0.5em;
 			width: 2.25em;
 		}
+		
+		.round { 
+				-moz-border-radius: 100px; /* Firefox */ 
+				-webkit-border-radius: 100px; /* Safari, Chrome */ 
+				-khtml-border-radius: 100px; /* KHTML */ 
+				border-radius: 100px; /* CSS3 */ 
+				behavior: url(border-radius.htc); /*IE */ }
 
 		@media screen and (max-width: 1680px) {
 
@@ -4114,6 +4151,9 @@
 			}
 
 		}
+		
+		
+
 
 /* Footer */
 
