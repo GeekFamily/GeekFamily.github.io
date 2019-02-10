@@ -67,7 +67,7 @@
 	.container.\31 25\25 {
 		width: 100%;
 		max-width: 100em;
-		min-width: 80em;
+		min-width: 10em;
 	}
 
 	.container.\37 5\25 {
@@ -2840,7 +2840,7 @@
 			}
 
 				.image-grid .image {
-					width: 100%;
+					width: 25%;
 				}
 
 		}
@@ -2848,7 +2848,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 8em 0 6em 0;
+		padding: 1em 0 10em 0;
 		position: relative;
 	}
 
@@ -3565,10 +3565,18 @@
 						background-color: rgba(255, 255, 255, 0.1);
 					}
 
+		@media screen and (max-width: 1920px) {
+			.wrapper {
+				padding: 1em 0 10em 0;
+				height: 22em;
+			}
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			.wrapper {
 				padding: 6em 0 4em 0;
+				height: 26em;
 			}
 
 				.wrapper > .inner {
@@ -3581,6 +3589,7 @@
 
 			.wrapper {
 				padding: 5em 3em 3em 3em;
+				height: 53em;
 			}
 
 				.wrapper > .inner {
@@ -3593,6 +3602,7 @@
 
 			.wrapper {
 				padding: 3em 2em 1em 2em;
+				height: 43em;
 			}
 
 		}
@@ -3601,6 +3611,7 @@
 
 			.wrapper {
 				padding: 2em 1em 0.1em 1em;
+				height: 47em;
 			}
 
 		}
@@ -4080,6 +4091,26 @@
 			margin-bottom: 0.5em;
 			padding: 0.5em;
 			width: 2.25em;
+		}
+
+		#News {
+			background-color: #1E2832;
+			color: #fff;
+			padding: 10px 0 0.06px 0;
+			font-size: 3em;
+			height: 1.25em;
+
+		}
+
+		#bg {
+			background-color: #1E2832;
+		}
+
+		.owl-carousel {
+			background-color: #EEE;
+			border: solid 3px #fff;
+			border-radius: 10px;
+			padding-left: 10px;
 		}
 		
 		.round { 
