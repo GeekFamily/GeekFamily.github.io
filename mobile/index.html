@@ -113,12 +113,12 @@ document.documentElement.addEventListener('keydown', function (e) {
 </script>
 
 <script>
- document.documentElement.addEventListener('touchstart', function (e) {
- if ( ( e.keycode || e.which ) == 32) {
+ document.documentElement.addEventListener('click', function()  {
+ if ('ontouchstart' in window) {
         var box = document.getElementById("messageBox");
         box.style.visibility="hidden";
     }
-};
+});
 </script>
 </body>
 </html>
