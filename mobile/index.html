@@ -113,12 +113,13 @@ document.documentElement.addEventListener('keydown', function (e) {
 </script>
 
 <script>
- document.documentElement.addEventListener('click', function()  {
- if ('ontouchstart' in window) {
+    document.documentElement.click(function() {
+    evt = evt || window.event;
+    if (evt.keyCode == 32) {
         var box = document.getElementById("messageBox");
         box.style.visibility="hidden";
     }
-});
+};
 </script>
 </body>
 </html>
