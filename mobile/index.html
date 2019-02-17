@@ -36,20 +36,15 @@
  
     <!--Include your navigation here-->
     <li class="text-right" align="right"><a href="#" id="nav-close">X</a></li>
-    <li><a href="#">Menu One <span class="icon"></span></a></li>
-    <li><a href="#">Menu Two <span class="icon"></span></a></li>
-    <li><a href="#">Menu Three <span class="icon"></span></a></li>
-	<li><a href="#">Dropdown</a>
+    <li><a href="#About">О сайте <span class="icon"></span></a></li>
+    <li><a href="#Blog">Блог<span class="icon"></span></a></li>
+	<li><a href="#">Контакты</a>
             <ul class="list-unstyled">
-                <li class="sub-nav"><a href="#">Sub Menu One <span class="icon"></span></a></li>
-                <li class="sub-nav"><a href="#">Sub Menu Two <span class="icon"></span></a></li>
-                <li class="sub-nav"><a href="#">Sub Menu Three <span class="icon"></span></a></li>
-                <li class="sub-nav"><a href="#">Sub Menu Four <span class="icon"></span></a></li>
-                <li class="sub-nav"><a href="#">Sub Menu Five <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="https://vk.com/geek_familygf">Группа вк<span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="https://twitter.com/GeekFamily3">Страница в Twitter <span class="icon"></span></a></li>
             </ul>
           </li>
-    <li><a href="#">Menu Four <span class="icon"></span></a></li>
-    <li><a href="#">Menu Five <span class="icon"></span></a></li>
+    <li><a href="https://vk.me/join/AJQ1d1iA6wja/Yulbbzs1Ief">В беседу! <span class="icon"></span></a></li>
   </ul>
 </nav>
  
@@ -66,9 +61,9 @@
 </div>
 <div id="t" class="offline">
     <div id="messageBox" class="sendmessage">
-         <h1 style="text-align: center;font-family: 'Roboto-Regular', Helvetica;">Error!</h1>
+               <h1 style="text-align: center;font-family: 'Roboto-Regular', Helvetica;">Error!</h1>
          <p style="text-align: center;font-family: 'Roboto-Regular', Helvetica; font-weight: 450;">Header code not found. A possible reason could be a lazy admin or a hacker attack. </p>
-         <p style="text-align: center;font-family: 'Roboto-Regular', Helvetica; font-weight: 900;">Press space to run away</p>
+         <p style="text-align: center;font-family: 'Roboto-Regular', Helvetica; font-weight: 900;">Tap on the T-rex to run away</p>
          <div class="niokbutton" onclick="okbuttonsend()"></div>
     </div>
     <div id="main-frame-error" class="interstitial-wrapper">
@@ -108,6 +103,24 @@
   <a style="font-size: 15px;" href="#" class="ico2n fa-copyright"></a><span style="font-size: 15px;" class="label2"> Все права защищены <a href="https://vk.com/igogoeba">Конём</a></span>
 </div>
 </div>
+
+<script>
+document.documentElement.addEventListener('keydown', function (e) {
+ if ( ( e.keycode || e.which ) == 32) {
+ e.preventDefault();
+ }
+}, false);
+</script>
+
+<script>
+    document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 32) {
+        var box = document.getElementById("messageBox");
+        box.style.visibility="hidden";
+    }
+};
+</script>
     <script>
     $(document).ready(function(){												
        
