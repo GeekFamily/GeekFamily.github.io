@@ -123,7 +123,6 @@ header {
     #banner p {
       color: #fff;
       font-size: 1.5em;
-      margin-bottom: 1.75em;
       text-transform: uppercase;
     }
 
@@ -306,6 +305,20 @@ header {
         width: 80%
 }
 
+@media screen and (max-width: 480px) {
+  #About_site p{
+    font-size: 9pt;
+    line-height: 1.4em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #About_site p{
+    font-size: 9pt;
+    line-height: 1.4em;
+  }
+}
+
 #end {
   margin-top: 20px;
   border-top: 2px solid #222;
@@ -372,31 +385,31 @@ a hover {
 }
 
   #logo h2{
-    Border: 5px solid white;
+    Border: 4px solid white;
     Font-family: "Comic Sans ms";
   }
 
     @media screen and (max-width: 1680px) {
     #logo h2{ 
-      width: 300px;
+      width: 220px;
       }
     }
 
     @media screen and (max-width: 1280px) {
     #logo h2{
-      width: 275px;
+      width: 200px;
       }
     }
 
     @media screen and (max-width: 980px) {
     #logo h2{
-      width: 250px;
+      width: 180px;
       }
     }
 
     @media screen and (max-width: 480px) {
     #logo h2{
-      width: 200px;
+      width: 140px;
       }
     }
 
@@ -404,22 +417,24 @@ a hover {
   background-color: #222;
   box-shadow: none;
   color: #fff !important;
-    line-height: 2.5em;
-    padding: 0 2em;
-    border-radius: 2.5em;
-    display: inline-block;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none !important;
-    text-transform: uppercase;
-    white-space: nowrap;
+  font-size: 1.2em;
+  height: 3.25em;
+  line-height: 3.25em;
+  padding: 0 2.5em;
+  border-radius: 2.5em;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  white-space: nowrap;
   font-family: "Raleway", Helvetica, sans-serif;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 980px) {
-  .button2 {
-      font-size: 12pt;
+  .button.big {
+    font-size: 1em;
   }
 }
 
