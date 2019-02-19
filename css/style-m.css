@@ -122,7 +122,9 @@ header {
 
     #banner p {
       color: #fff;
+      font-weight: 800px;
       font-size: 1.5em;
+      font-family: Comic Sans ms;
       text-transform: uppercase;
     }
 
@@ -204,10 +206,6 @@ header {
         }
 
     }
-
-  #logo{
-    padding-top: 20px;
-  }
 
   #logo h2{
     padding-top: 5px;
