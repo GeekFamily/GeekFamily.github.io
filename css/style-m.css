@@ -77,6 +77,171 @@ header {
     text-transform: uppercase;
 }
 
+/* Banner */
+
+  #banner {
+    padding: 8em 0 6em 0;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+  }
+
+    #banner input, #banner select, #banner textarea {
+      color: #fff;
+    }
+
+    #banner a {
+      color: #51BAA4;
+    }
+
+    #banner strong, #banner b {
+      color: #fff;
+    }
+
+    #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+      color: #fff;
+    }
+
+    #banner blockquote {
+      border-left-color: transparent;
+    }
+
+    #banner code {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: transparent;
+    }
+
+    #banner hr {
+      border-bottom-color: transparent;
+    }
+
+    #banner h2 {
+      font-size: 2.5em;
+      margin: 0 0 0.5em 0;
+      padding: 0;
+    }
+
+    #banner p {
+      color: #fff;
+      font-size: 1.5em;
+      margin-bottom: 1.75em;
+      text-transform: uppercase;
+    }
+
+    #banner .icon {
+      border-radius: 100%;
+      border: solid 2px #fff;
+      color: #fff;
+      display: inline-block;
+      font-size: 3em;
+      height: 2.25em;
+      line-height: 1.25em;
+      margin-bottom: 0.5em;
+      padding: 0.5em;
+      width: 2.25em;    }
+    
+    .round { 
+        -moz-border-radius: 100px; /* Firefox */ 
+        -webkit-border-radius: 100px; /* Safari, Chrome */ 
+        -khtml-border-radius: 100px; /* KHTML */ 
+        border-radius: 100px; /* CSS3 */ 
+        behavior: url(border-radius.htc); /*IE */ }
+
+    @media screen and (max-width: 1680px) {
+
+      #banner {
+        padding: 11em 0 9em 0;
+      }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+      #banner {
+        padding: 9em 0 7em 0;
+      }
+
+        #banner h2 {
+          font-size: 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+      #banner {
+        padding: 8em 2em 6em 2em;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      #banner {
+        padding: 5em 2em 3em 2em;
+      }
+
+        #banner h2 {
+          font-size: 1.5em;
+        }
+
+        #banner p {
+          font-size: 1em;
+        }
+
+        #banner .icon {
+          font-size: 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      #banner {
+        padding: 5em 2em 3em 2em;
+      }
+
+        #banner .icon {
+          font-size: 1.5em;
+        }
+
+    }
+
+  #logo{
+    padding-top: 20px;
+  }
+
+  #logo h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    Border: 4px solid white;
+    Font-family: "Comic Sans ms";
+  }
+
+    @media screen and (max-width: 1680px) {
+    #logo h2{ 
+      width: 275px;
+      }
+    }
+
+    @media screen and (max-width: 1280px) {
+    #logo h2{
+      width: 250px;
+      }
+    }
+
+    @media screen and (max-width: 980px) {
+    #logo h2{
+      width: 225px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+    #logo h2{
+      width: 150px;
+      }
+    }
+
 .offline {
   margin-left: auto;
   margin-right: auto;
@@ -185,7 +350,7 @@ p {
 
 a hover {
   color: #fff;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 #Contacts_css a {
@@ -201,6 +366,73 @@ a hover {
 
 }
 
+#banner {
+    padding: 8em 0 6em 0;
+    text-align: center;
+}
+
+  #logo h2{
+    Border: 5px solid white;
+    Font-family: "Comic Sans ms";
+  }
+
+    @media screen and (max-width: 1680px) {
+    #logo h2{ 
+      width: 300px;
+      }
+    }
+
+    @media screen and (max-width: 1280px) {
+    #logo h2{
+      width: 275px;
+      }
+    }
+
+    @media screen and (max-width: 980px) {
+    #logo h2{
+      width: 250px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+    #logo h2{
+      width: 200px;
+      }
+    }
+
+.button2 {
+  background-color: #222;
+  box-shadow: none;
+  color: #fff !important;
+    line-height: 2.5em;
+    padding: 0 2em;
+    border-radius: 2.5em;
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    white-space: nowrap;
+  font-family: "Raleway", Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  .button2 {
+      font-size: 12pt;
+  }
+}
+
+.button a{
+    background-color: #333;
+    text-decoration: none;
+}
+
+.button a:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
 .button {
   float: right;
   margin-top: -10px;
@@ -213,7 +445,7 @@ a hover {
     display: inline-block;
     font-weight: 700;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none !important;
     text-transform: uppercase;
     white-space: nowrap;
   font-family: "Raleway", Helvetica, sans-serif;
