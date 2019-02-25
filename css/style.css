@@ -54,9 +54,6 @@ padding: 0
 	padding-bottom: 20px;
 }
 
-p {
-    margin: 0 0 2em 0;
-}
 .twitter-timeline {
 	margin:0 auto;
 }
@@ -117,26 +114,182 @@ p {
 			}
 		}
 
-#banner {
-	margin-top: 70px;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-family: "Raleway", Helvetica, sans-serif;
-	text-align: center;
-	color: #fff;
-	box-sizing: border-box;
-}
+/* Banner */
 
-@media screen and (max-width: 1280px) {
-	#banner {
- 		padding: 9em 0 7em 0;
-	}
-}
+  #banner {
+    padding: 8em 0 6em 0;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+  }
 
-@media screen and (max-width: 1680px) {}
-	#banner {
-    	padding: 11em 0 9em 0;
-	}
+    #banner input, #banner select, #banner textarea {
+      color: #fff;
+    }
+
+    #banner a {
+      color: #51BAA4;
+    }
+
+    #banner strong, #banner b {
+      color: #fff;
+    }
+
+    #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+      color: #fff;
+    }
+
+    #banner blockquote {
+      border-left-color: transparent;
+    }
+
+    #banner code {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: transparent;
+    }
+
+    #banner hr {
+      border-bottom-color: transparent;
+    }
+
+    #banner h2 {
+      font-size: 2.5em;
+      margin: 0 0 0.5em 0;
+      padding: 0;
+    }
+
+    #banner p {
+      color: #fff;
+      font-weight: 800px;
+      font-size: 1.5em;
+      font-family: Comic Sans ms;
+      text-transform: uppercase;
+    }
+
+    #banner .icon {
+      border-radius: 100%;
+      border: solid 2px #fff;
+      color: #fff;
+      display: inline-block;
+      font-size: 3em;
+      height: 2.25em;
+      line-height: 1.25em;
+      margin-bottom: 0.5em;
+      padding: 0.5em;
+      width: 2.25em;    }
+    
+    .round { 
+        -moz-border-radius: 100px; /* Firefox */ 
+        -webkit-border-radius: 100px; /* Safari, Chrome */ 
+        -khtml-border-radius: 100px; /* KHTML */ 
+        border-radius: 100px; /* CSS3 */ 
+        behavior: url(border-radius.htc); /*IE */ }
+
+    @media screen and (max-width: 1680px) {
+
+      #banner {
+        padding: 11em 0 9em 0;
+      }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+      #banner {
+        padding: 9em 0 7em 0;
+      }
+
+        #banner h2 {
+          font-size: 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+      #banner {
+        padding: 8em 2em 6em 2em;
+      }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+      #banner {
+        padding: 5em 2em 3em 2em;
+      }
+
+        #banner h2 {
+          font-size: 1.5em;
+        }
+
+        #banner p {
+          font-size: 1em;
+        }
+
+        #banner .icon {
+          font-size: 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      #banner {
+        padding: 5em 2em 3em 2em;
+      }
+
+        #banner .icon {
+          font-size: 1.5em;
+        }
+
+    }
+
+      #logo h2{
+    Border: 4px solid white;
+    Font-family: "Comic Sans ms";
+  }
+
+    @media screen and (max-width: 1680px) {
+    #logo h2{ 
+      width: 220px;
+      }
+    }
+
+    @media screen and (max-width: 1280px) {
+    #logo h2{
+      width: 200px;
+      }
+    }
+
+    @media screen and (max-width: 980px) {
+    #logo h2{
+      width: 180px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+    #logo h2{
+      width: 140px;
+      }
+    }
+
+.button2 {
+  background-color: #4d4d4d;
+  box-shadow: none;
+  color: #fff !important;
+  font-size: 1.2em;
+  height: 3.25em;
+  line-height: 3.25em;
+  padding: 0 2.5em;
+  border-radius: 2.5em;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Raleway", Helvetica, sans-serif;
+  margin: 0 auto;
 }
 
 .icon.fa-diamond {
