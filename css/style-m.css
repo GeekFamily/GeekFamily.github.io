@@ -426,7 +426,7 @@ a hover {
   text-decoration: none !important;
   text-transform: uppercase;
   white-space: nowrap;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: FontAwesome;
   margin: 0 auto;
 }
 
