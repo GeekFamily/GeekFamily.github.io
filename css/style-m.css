@@ -430,6 +430,24 @@ a hover {
   margin: 0 auto;
 }
 
+.button3 {
+  box-shadow: none;
+  color: #fff !important;
+  font-size: 1.2em;
+  height: 3.25em;
+  line-height: 3.25em;
+  padding: 0 2.5em;
+  border-radius: 2.5em;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: FontAwesome;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 980px) {
   .button.big {
     font-size: 1em;
